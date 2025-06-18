@@ -26,11 +26,11 @@ const CompanionCard = ({
 }: CompanionCardProps) => {
   const pathname = usePathname();
   const handleBookmark = async () => {
-    if (bookmarked) {
-      await removeBookmark(id, pathname);
-    } else {
-      await addBookmark(id, pathname);
-    }
+    // if (bookmarked) {
+    //   await removeBookmark(id, pathname);
+    // } else {
+    //   await addBookmark(id, pathname);
+    // }
   };
   return (
     <article className="companion-card" style={{ backgroundColor: color }}>
